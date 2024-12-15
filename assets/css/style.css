@@ -7,6 +7,8 @@
     src: url('/assets/fonts/gobold-high-bold-italic.otf') format('otf');
 }
 
+
+
 /* Setting variables for styling fonts and colors */
 :root {
     --primary-color: #17216b;
@@ -14,16 +16,22 @@
     --secondary-color: white;
     /* white */
     --highlight-font: 'Gobold', sans-serif;
+    --#{$prefix}navbar-toggler-font-size: 200%;
+
 
 }
 
-
+body {
+    /* font-family: var(--primary-font); */
+    padding-top: 150px; /* pushes the top of the header down under fixed navbar */
+}
 
 /* Navbar */
 
 #navbar {
     background-color: var(--primary-color);
-}
+  
+    }
 
 #logo-text {
     font-family: var(--highlight-font);
@@ -45,6 +53,19 @@ h2 #logo-text {
     width: 140px;
 }
 
+.navbar-nav {
+    font-family: var(--highlight-font);
+    text-transform: uppercase;
+    font-size: 180%;
+}
+
+.navbar-text {
+    color: white;
+}
+
+.nav-link-active, .nav-link {
+    vertical-align: auto;
+}
 
 /* Grid Visualisation CSS */
 .container,
