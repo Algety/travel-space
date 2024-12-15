@@ -1,12 +1,15 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* Custom fonts import */
 @import url('https://fonts.cdnfonts.com/css/gobold');
 
+/*Trying to use custom fonts from directory, doesn`t work*/
 @font-face {
     font-family: 'Gobold';
     src: url('/assets/fonts/gobold-high-bold-italic.otf') format('otf');
 }
 
+/* Override default styles added by the browser */
 
 
 /* Setting variables for styling fonts and colors */
@@ -15,26 +18,23 @@
     /*dark blue */
     --secondary-color: white;
     /* white */
-    --highlight-font: 'Gobold', sans-serif;
-    --#{$prefix}navbar-toggler-font-size: 200%;
-
-
+    --primary-font: 'Gobold', sans-serif;
 }
 
 body {
     /* font-family: var(--primary-font); */
-    padding-top: 150px; /* pushes the top of the header down under fixed navbar */
+    padding-top: 120px; /* pushes the top of the header down under fixed navbar */
 }
 
+/* ----------------------------------------------------------------------------------------*/
 /* Navbar */
 
 #navbar {
     background-color: var(--primary-color);
-  
     }
 
 #logo-text {
-    font-family: var(--highlight-font);
+    font-family: var(--primary-font);
     text-transform: uppercase;
     color: var(--secondary-color);
     margin: 0;
@@ -54,7 +54,7 @@ h2 #logo-text {
 }
 
 .navbar-nav {
-    font-family: var(--highlight-font);
+    font-family: var(--primary-font);
     text-transform: uppercase;
     font-size: 180%;
 }
@@ -62,18 +62,30 @@ h2 #logo-text {
 .navbar-text {
     color: white;
 }
-
+/* Trying to align items in navbar */
 .nav-link-active, .nav-link {
     vertical-align: auto;
 }
 
-/* Grid Visualisation CSS */
-.container,
-.row {
-    border: 1px solid black;
+/*---------------------------------------------------------------------------------------------------------*/
+#front-photo {
+    padding-top: 65rem;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: url("../images/selfie-on-moon.webp") no-repeat center center/cover;
 }
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgrey;
+#front-photo-text {
+    
+    position: absolute;
+    font-size: 300%;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    width: 80%;
+    min-height: 200px;
+    padding-left: 15px;
+    padding-top: 40px;
+    bottom:100px; 
 }
