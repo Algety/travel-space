@@ -1,0 +1,58 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gobold');
+
+@font-face {
+    font-family: 'Gobold';
+    src: url('/assets/fonts/gobold-high-bold-italic.otf') format('otf');
+}
+
+/* Setting variables for styling fonts and colors */
+:root {
+    --primary-color: #17216b;
+    /*dark blue */
+    --secondary-color: white;
+    /* white */
+    --highlight-font: 'Gobold', sans-serif;
+
+}
+
+
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#logo-text {
+    font-family: var(--highlight-font);
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+h1 #logo-text {
+    font-size: 110%;
+}
+
+h2 #logo-text {
+    font-size: 90%;
+    text-align: right;
+}
+
+#navbar .logo {
+    width: 140px;
+}
+
+
+/* Grid Visualisation CSS */
+.container,
+.row {
+    border: 1px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgrey;
+}
