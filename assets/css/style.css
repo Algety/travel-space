@@ -3,15 +3,6 @@
 /* Custom fonts import */
 @import url('https://fonts.cdnfonts.com/css/gobold');
 
-/*Trying to use custom fonts from directory, doesn`t work*/
-@font-face {
-    font-family: 'Gobold';
-    src: url('/assets/fonts/gobold-high-bold-italic.otf') format('otf');
-}
-
-/* Override default styles added by the browser */
-
-
 /* Setting variables for styling fonts and colors */
 :root {
     --primary-color: #17216b;
@@ -23,7 +14,14 @@
 
 body {
     /* font-family: var(--primary-font); */
-    padding-top: 120px; /* pushes the top of the header down under fixed navbar */
+
+    /* pushes the top of the header down under fixed navbar */
+}
+
+/* Override bootstrap styles */
+h3 {
+    font-size: 100%;
+    margin-top: 15px;
 }
 
 /* ----------------------------------------------------------------------------------------*/
@@ -31,7 +29,8 @@ body {
 
 #navbar {
     background-color: var(--primary-color);
-    }
+    padding: 5px 0px 0px 0px;
+}
 
 #logo-text {
     font-family: var(--primary-font);
@@ -60,32 +59,98 @@ h2 #logo-text {
 }
 
 .navbar-text {
-    color: white;
+    color: var(--secondary-color);
 }
+
 /* Trying to align items in navbar */
-.nav-link-active, .nav-link {
+.nav-link-active,
+.nav-link {
     vertical-align: auto;
+}
+
+.navbar-toggler {
+    font-size: 250%;
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
 #front-photo {
-    padding-top: 65rem;
+   
+    padding-top: 100px;
     position: relative;
-    height: 500px;
+    background: url("../images/selfie-on-moon.webp") no-repeat;
+    background-size: cover;
+    /* Align the image to the top of the div */
+    background-position: 50% 30%;
+    height: 100vh;
     width: 100%;
-    background: url("../images/selfie-on-moon.webp") no-repeat center center/cover;
+    overflow: hidden;
 }
 
 #front-photo-text {
-    
     position: absolute;
-    font-size: 300%;
+    font-size: 550%;
     color: var(--secondary-color);
     font-family: var(--primary-font);
     text-transform: uppercase;
-    width: 80%;
+   
     min-height: 200px;
-    padding-left: 15px;
+    padding-left: 65px;
     padding-top: 40px;
-    bottom:100px; 
+    bottom: 40px;
+    text-shadow: 5px 5px 34px rgba(0, 0, 0, 0.5);
+}
+
+/* Media queries */
+
+@media screen and (min-width: 300px) {
+    #navbar .logo {
+        width: 100px;
+    }
+    #front-photo {
+        height: 100vh;
+    }
+    #front-photo-text {
+        font-size: 500%;
+        padding-left: 10vw; 
+        padding-bottom: 3vw;
+    }
+}
+@media screen and (min-width: 768px) {
+    #navbar .logo {
+        width: 120px;
+    }
+    #front-photo {
+        height: 100vh;
+    }
+    #front-photo-text {
+        font-size: 12vw;
+        padding-left: 10vw; 
+        padding-bottom: 5vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #navbar .logo {
+        width: 140px;
+    }
+    #front-photo-text {
+        font-size: 12vw;
+        padding-left: 45px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #front-photo-text {
+        font-size: 900%;
+        padding-left: 120px; 
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #front-photo-text {
+        font-size: 900%;
+        padding-left: 5vw; 
+        max-width: 90vw;
+        padding-bottom: 3vh;
+    }
 }
