@@ -96,7 +96,6 @@ h2 #logo-text {
     font-size: 200%;
 }
 
-
 .navbar-text .custom-button-filled {
     color: var(--primary-color);
     font-size: 100%;
@@ -137,7 +136,11 @@ h2 #logo-text {
     padding-top: 200px;
 }
 
-
+#success-booking {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
 /*-----------------------------------------------------------------------------------------------*/
 /*Contacts*/
 #contacts-container {
@@ -147,7 +150,12 @@ h2 #logo-text {
     padding: 60px;
 }
 
-
+.social-links-contacts i {
+    color: var(--primary-color);
+    font-size: 250%;
+    padding-top: 30px;
+    padding-right: 3vw;
+}
 
 #map {
     background: url(../images/map.png);
