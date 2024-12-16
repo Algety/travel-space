@@ -255,16 +255,17 @@ footer {
 
 @media screen and (min-width: 1200px) {
     #front-photo-text {
-        font-size: 900%;
-        padding-left: 120px;
+        font-size: 700%;
+        padding-left: 12vw;
+        padding-top: 10vh;
     }
 }
 
 @media screen and (min-width: 1400px) {
     #front-photo-text {
-        font-size: 900%;
+        font-size: 580%;
         padding-left: 5vw;
         max-width: 90vw;
-        padding-bottom: 3vh;
+        padding-bottom: 0.3vh;
     }
 }
