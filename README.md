@@ -3,9 +3,9 @@
 This website is designed for a fictional travel company, Travel Moon LTD, based 123 Moon Road, Space City, Solar System. It aims to engage more customers and boost sales for their exclusive trips to the Moon. The site contains a booking form to easily reserve a trip, a Traveller`s Guide page where visitors can explore detailed information about the trips, including accommodations, food options, and luggage policies, a reviews section showcasing testimonials from customers. 
 There’s also a contact section for potential customers to get in touch with Travel Moon LTD for any queries or additional information.
 
-This website has been created as the first Milestone project for Code Institute's Web Application Development Course. It was built using HTML and CSS. GitPod was used to provode the IDE for writing the code, and the project is stored on GitHub.
+This website has been created as the first Milestone project for Code Institute's Web Application Development Course. 
 
-### View the live website [here](https:///)
+### View the live website [here](https://github.com/Algety/travel-space/)
 ***
 ## Table of content: 
  1. [Site Goals](#Site-Goals)
@@ -51,31 +51,20 @@ The goals for this site are as follows:
 #### Returning User:
 * As a returning user, I would like to 
 
-## Development Planes:
-To create a website that is comprehensive and informative for a user, as a developer you need to ...  
+## User Experience - UX
 
-## Strategy
-The strategy principal looks at user needs, as well product/service objectives. This websites target audience was broken down into three categories:
+ ### User Stories
 
+* As a new visitor, I want to:
 
-## Scope:  
-Developing website requirements based on the goals set out in the strategy plane:
+1. Understand the main purpose of the site.
+2. Be able to easily navigate throughout the site and find relevant content about package holidays.
+3. Be able to easily contact the company for more information.
+   
+* As a returning visitor, I want to:
 
-### Content Requirements:
-1. The user will be looking for:
-      * Information on
-      * 
-### Functionality Requirements:
-1. The user will be able to:
-      * Navigate through the site to find the information they need
-      * Contact the company by phone number, email, social medias or post, provided on the Contacts page, or social media links in the footer.
-      * Book a trip, choosing the time of travel and number of travellers. 
-
-## Structure:
-## Skeleton:
-[Wireframes](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
-## Surface:
-(https://.../)  
+1. Be able to find newly available package holidays.
+2. Be able to find more relevant information about the company.
 
 
 ### Color: 
