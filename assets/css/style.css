@@ -23,6 +23,10 @@ p {
     font-family: var(--secondary-font);
 }
 
+.hidden {
+    display: none;
+}
+
 .heading-secondary-font,
 .main-text {
     margin: 40px 0 15px 0;
@@ -44,7 +48,7 @@ p {
     padding: 5px 0px 0px 0px;
 }
 
-#logo-text {
+.logo-text, .logo-text-2 {
     font-family: var(--primary-font);
     text-transform: uppercase;
     color: var(--secondary-color);
@@ -55,7 +59,7 @@ h1 #logo-text {
     font-size: 110%;
 }
 
-h2 #logo-text {
+h1 #logo-text-2 {
     font-size: 90%;
     text-align: right;
 }
@@ -206,7 +210,7 @@ footer {
 
     .navbar-toggler {
         font-size: 300%;
-        margin-right: 5x;
+        margin-right: 5px;
         padding-right: 5px;
     }
 
