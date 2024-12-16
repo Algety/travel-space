@@ -170,8 +170,9 @@ main {
     padding-right: 3vw;
 }
 
-div #map {
+#map {
     background: url(../images/map.webp);
+    border: 2px solid var(--primary-color);
 }
 
 /*-----------------------------------------------------------------------------------------------*/
