@@ -1,131 +1,260 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# To the Moon and Back Trips
 
-Welcome Olga Bobyr,
+This website is designed for a fictional travel company, Travel Moon LTD, based 123 Moon Road, Space City, Solar System. It aims to engage more customers and boost sales for their exclusive trips to the Moon. The site contains a booking form to easily reserve a trip, a Traveller`s Guide page where visitors can explore detailed information about the trips, including accommodations, food options, and luggage policies, a reviews section showcasing testimonials from customers. 
+There’s also a contact section for potential customers to get in touch with Travel Moon LTD for any queries or additional information.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website has been created as the first Milestone project for Code Institute's Web Application Development Course. It was built using HTML and CSS. GitPod was used to provode the IDE for writing the code, and the project is stored on GitHub.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+### View the live website [here](https:///)
+***
+## Table of content: 
+ 1. [Site Goals](#Site-Goals)
+ 1. [UX](#UX)
+      1. [User Stories](#User-Stories)
+      1. [Development Planes](#Development-Planes)
+            * [Strategy](#Strategy)
+            * [Scope](#Scope)
+            * [Structure](#Structure)
+            * [Skeleton](#Skeleton)
+            * [Surface](#Surface)
+ 1. [Features](#Features)
+      1. [General](#General)
+      1. [Home page](#Home-page)
+      2. [Reviews](#Reviews)
+      1. [Traveller`s Guide](#guide)
+      1. [Booking Form](#book-trip)
+ 1. [Testing](#Testing)
+ 1. [User Stories Met](#User-Stories-Met)
+ 1. [Bugs](#Bugs)
+ 1. [Technologies Used](#Technologies-Used)
+ 1. [Validation](#Validation)
+ 1. [Accessibility](#Accessibility)
+ 1. [Deployment](#Deployment)
+ 1. [Credits](#Credits)
+      1. [Content](#Content)
+      1. [Media](#Media)
+      1. [Code](#Code)
+***
+  
 
-## Gitpod Reminders
+## Site Goals:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The goals for this site are as follows:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## UX:
 
-Another blue button should appear to click: _Open Browser_.
+### User stories:
+#### New User:  
+* As a new user, I am looking to 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+#### Returning User:
+* As a returning user, I would like to 
 
-A blue button should appear to click: _Make Public_,
+## Development Planes:
+To create a website that is comprehensive and informative for a user, as a developer you need to ...  
 
-Another blue button should appear to click: _Open Browser_.
+## Strategy
+The strategy principal looks at user needs, as well product/service objectives. This websites target audience was broken down into three categories:
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Scope:  
+Developing website requirements based on the goals set out in the strategy plane:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Content Requirements:
+1. The user will be looking for:
+      * Information on
+      * 
+### Functionality Requirements:
+1. The user will be able to:
+      * Navigate through the site to find the information they need
+      * Contact the company by phone number, email, social medias or post, provided on the Contacts page, or social media links in the footer.
+      * Book a trip, choosing the time of travel and number of travellers. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+## Structure:
+## Skeleton:
+[Wireframes](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
+## Surface:
+(https://.../)  
 
-### Connecting your Mongo database
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### Color: 
+To create a visually appealing and accessible website, two main colors with strong contrast were used — dark blue, associated with technology, space, and activity, and white, which together create a dynamic appearance for the site.
 
-------
+### Font:
 
-## Release History
+The fonts used for this website are Gobold High Bold Italic for the logo, and supporting the logo style, for headings, and Navbar links; and Oswald for plain text and sub-headings. Both fonts are backed up with the Sans-Serif font family in case there are any issues with the imported fonts
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Images:
 
-**June 18, 2024,** Add Mongo back into template
+Images in nearly similar color scheme, giving the feeling of exitement, positive emotions, sci-fi, where picked from free image stock websites.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+***
+[Back to top](#*******************************)  
+  
 
-**May 28 2024:** Fix Mongo and Links installs
+## Features:
+There are several features on this site to help users get the most out of their visit to the site.  
 
-**April 26 2024:** Update node version to 16
+### General:
+#### Navigation:  
+Each page has a Navigation bar section. This section is at the top of each page and is fixed allowing to navigate between pages without the need to scroll back to the top. 
+![Navbar](...png)  
+#### Footer:  
+Each page also has a footer element. This contains links to the company`s social media pages, i.e Facebook and Instagram, Twitter. All of these icons, when clicked, will open in a new tab.  
+![Social Media Icons in the Footer](...png)
 
-**September 20 2023:** Update Python version to 3.9.17.
+### Home page:
+The *Home* page contains all the header and footer features mentioned above.  
+#### Main Section:
+In the main section of the *Home* page, there is the main image (or hero image) followed by an introductory section, which contains ...
+![Main section](...png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Abou page:
+The page contains the header and footer features mentioned above.
+#### About:
+This page contains a section that allows the user to click through to the websites
+![My Experience](...png)  
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Future Features:
+* A gallery 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+***
+[Back to top](#******************)  
+*******************************************************************
+## User Stories Met:
+This section is to look back at the User stories we established during the strategy phase of the project. 
+We are looking to see if we have met all the goals we set out. 
+#### New User:  
+* As a new user, I am looking to 
+      __Met on the home page of the website__  
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+***
+***********************************************************
+## Testing:
+Testing information can be viewed [here](TESTING.md "Link to testing information")
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+***
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Bugs:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+***
+[Back to top](#***********************************************************) 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Languages Used 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* [HTML5](https://www.w3schools.com/html/default.asp).
+* [CSS3](https://www.w3schools.com/css/default.asp).
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Frameworks - Libraries - Programs Used
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* [Bootstrap:](https://getbootstrap.com/)
+   * Bootstrap was used to acheave responsiveness of the website. 
+* [Google Fonts:](https://fonts.google.com/)
+   * Some icons on the site were sourced from the Google Fonts collection.
+* [Font Awesome:](https://fontawesome.com/)
+    * Some icons on the site were sourced from Font Awesome.
+* [CDN Fonts:](https://www.cdnfonts.com/)
+    * CDN Fonts library was used to import the 'Gobold' font throughout css. 
+* [GitHub:](https://github.com/)
+    * GitHub is used to store the project's code after being pushed from Git.
+* [Image Resizer:](https://imageresizer.com/)
+    * Image Resizer was used to modify and resize the images on the website.
+* [Canva](https://canva.com)
+    * Canva was used to create the design of the page layouts.
+* [Logo Design](https://logodesign.ai/)
+    * Logo Design was used to creat the image logo.
+* [Favicon Io](https://favicon.io/favicon-converter/)
+    * Logo Design was used to creat the favicon images.
 
-------
+  
+## Testing
 
-## FAQ about the uptime script
+The W3C Markup Validator and W3C CSS Validator services were used to validate the project's pages for syntax errors.
+***********************************************************************************************************************************
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-**Why have you added this script?**
+Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The project was tested using the Chrome Developer Tools to verify responsiveness of the site.
+* Devices tested using the Google Developer Tools emulator 
+    * iPhone XR
+    * iPhone 12 Pro
+    * iPhone 14 Pro Max
+    * Pixel 7
+    * Samsung Galaxy S8+
+    * Samsung Galaxy S20 Ultra
+    * iPad Mini
+    * iPad Air
+    * iPad Pro
+    * Surface Pro 7
+    * Surface Duo
+    * Galaxy Z Fold 5
+    * Asus Zenbook Fold
+    * Samsung Galaxy A51/71
+    * Nest Hub
+    * Nest Hub Max
+    * **********************************************************************
+* Desktop Results:
+  ![Lighthouse Destop Result](./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg).
+* Mobile Results:
+  ![Lighthouse Mobile Result](./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg).
 
-**How will this affect me?**
+   ## Functionality
+* Every link has been tested by hovering and clicking to ensure accessibility.
+* Pages display correctly across all screen sizes and devices.
+* Social media links function properly and open in new tabs.
+* Images appear as expected on every page.
+* Buttons are fully operational, directing users to their intended destinations.
+* The booking form fields are validated to ensure required fields are filled and inputs are of the correct type.
+  
+******************************************************************************************************************************
+*** 
+[Back to top](#**************************)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Validation:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+See screenshot to W3C validator and Jigsaw CSS validator [here](VALIDATION.md "Link to validation screenshots")
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### **index.html:**
+No errors found. 
+### **guide.html:**
+No errors found
+### **contact-us.html:**
+No errors found
+### **book-trip.html:**
+No errors found
+### **style.css:**
+No errors found
+********************************************************
+***
+[Back to top](#
 
-**So….?**
+*********************************************************
+## Accessibility:
+![LightHouse Report](assets/readme-images/lighthouse-score.png)
+***
+## Deployment:
+Development on [GitPod](https://gitpod.io/) with the Code Institute template, stored at [GitHub](https://github.com/).
+***
+## Credits:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Content:
 
-**Can I opt out?**
+1. The icons - [Font Awesome](https://fontawesome.com/), [Google Fonts](https://fonts.google.com/)
+2. The logo and favicon created with help [Logo Design](https://logodesign.ai/)
+3. Gobolf Font - [CDN Fonts](https://www.cdnfonts.com/)
+4. Favicon sized with [Favicon Io](https://favicon.io/favicon-converter/)
+5. Free images - [Freepik](https://www.freepik.com/), [Pexel](https://www.pexels.com/)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Code:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+1. Code samples have been adapted specifically for the site - [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/), [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/).
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+*** 
+[Back to top](#************************************) 
