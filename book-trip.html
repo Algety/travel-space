@@ -22,7 +22,6 @@
             vertical-align: middle;
             color: #17216b;
         }
-        
     </style>
 
     <!-- Meta tags for search engines -->
@@ -61,7 +60,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item custom-nav-item">
-                        <a class="nav-link link-active" aria-current="page" href="guide.html">Traveler’s Guide</a>
+                        <a class="nav-link" href="guide.html">Traveler’s Guide</a>
                     </li>
                     <li class="nav-item custom-nav-item">
                         <a class="nav-link" href="contact-us.html">Contacts</a>
@@ -74,10 +73,59 @@
         </div>
     </nav>
 
+    <!------------------------------------------------------------------------------------------------>
+    <main>
+        <!-- Booking inquiry form section -->
+        <section id="book-trip" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2 class="heading-secondary-font">Book the Trip Now!</h2>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="people" class="form-label">Number of travellers</label>
+                                <input class="form-control" id="people" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="trips" class="form-label">Date of the trip</label>
+                                <select id="trips" class="form-select">
+                                    <option selected>Select</option>
+                                    <option value="jan-2030">15.01.2030 - 28.01.2030</option>
+                                    <option value="feb-2030">15.02.2030 - 28.02.2030</option>
+                                    <option value="mar-2030">15.03.2030 - 28.03.2030</option>
+                                    <option value="apr-2030">15.04.2030 - 28.04.2030</option>
+                                    <option value="may-2030">15.05.2030 - 28.05.2030</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn custom-button-outlined">Confirm</button>
 
-    <!------------------------------------------------------------------------------------------------->
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <!------------------------------------------------------------------------------------------------->
+
+    <!------------------------------------------------------------------------------------------------>
     <footer class="mt-auto">
         <section class="container">
             <div class="row justify-content-center">

@@ -22,12 +22,11 @@
             vertical-align: middle;
             color: #17216b;
         }
-        
     </style>
 
     <!-- Meta tags for search engines -->
     <meta name="description"
-        content="Take the trip of a lifetime. Jump over the moon, take a selfie with Earth, ride a lunar rover... And come back home in one piece. Go to the Moon and back with us.">
+        content="Contacts. To the Moon and Back. Travel Moon LTD">
     <meta name="keywords" content="trip, vacation, space, moon, flight, astronaut">
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
@@ -61,10 +60,10 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item custom-nav-item">
-                        <a class="nav-link link-active" aria-current="page" href="guide.html">Traveler’s Guide</a>
+                        <a class="nav-link" href="guide.html">Traveler’s Guide</a>
                     </li>
                     <li class="nav-item custom-nav-item">
-                        <a class="nav-link" href="contact-us.html">Contacts</a>
+                        <a class="nav-link link-active" aria-current="page" href="contact-us.html">Contacts</a>
                     </li>
                     <li>
                         <a class="custom-button-filled btn ms-lg-3" href="book-trip.html">Book now!</a>
@@ -74,10 +73,27 @@
         </div>
     </nav>
 
+    <!--------------------------------------------------------------------------------------------------->
 
-    <!------------------------------------------------------------------------------------------------->
 
-    <!------------------------------------------------------------------------------------------------->
+    <div id="contacts-container" class="container">
+        <h1 class="text-center heading-secondary-font">Contact Us</h1>
+        <div class="row contact-info">
+            <div class="col-lg-6">
+                <h3 class="sub-heading">Our Address</h3>
+                <address><strong><i class="fa-solid fa-location-dot"></i> Travel Moon LTD</strong>
+                    <br>123 Moon Road, Space City, <br>Solar System</address>
+                    <br>
+                <p><i class="fa-solid fa-phone"></i> +1 234 567 890<br>
+                <i class="fa-solid fa-envelope"></i> info@moontravel.com</p>
+            </div>
+            <div class="col-lg-6 map-container">
+                <h3 class="sub-heading">Find Us Here</h3>
+                <div id="map" style="width:100%; height:400px;"></div>
+            </div>
+        </div>
+    </div>
+
     <footer class="mt-auto">
         <section class="container">
             <div class="row justify-content-center">
@@ -105,6 +121,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2125e79a68.js" crossorigin="anonymous"></script>
 
+
     <script>
         document
             .querySelectorAll(".navbar-collapse .nav-link")
@@ -125,6 +142,7 @@
                 });
             });
     </script>
+
 </body>
 
 </html>
