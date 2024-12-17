@@ -153,11 +153,15 @@ The screenshots below provide the results of testing.
 ![html-contact-us-page](https://github.com/user-attachments/assets/ee33dec1-aaee-41f6-b538-86c31d46cb30)
 ![html-book-trip-page](https://github.com/user-attachments/assets/b6aba0c2-d762-4faf-bd27-69403e2c6cb0)
 ![html-success-page](https://github.com/user-attachments/assets/470a441c-d694-4756-8e3c-50b64ddc254b)
+![image](https://github.com/user-attachments/assets/0288f93f-ad59-4f29-ada7-c6e4d474cf76)
+
 #### CSS checks
 ![css-index-page](https://github.com/user-attachments/assets/f7796fb8-54a3-4a57-86bf-84eaed3410e8)
 ![css-contact-us-page](https://github.com/user-attachments/assets/014ecedf-8710-4ad0-ac2a-14486b1a3f71)
 ![css-book-trip-page](https://github.com/user-attachments/assets/614c48fc-7b62-48ec-9da2-d67545f8d385)
 ![css-success-page](https://github.com/user-attachments/assets/244abfa6-d3b8-47ce-9798-e1caabc3ed24)
+![image](https://github.com/user-attachments/assets/45ad2747-8017-4d1f-af9d-57269eb69c4b)
+
 ### Responsiveness
 The project was tested using the Chrome Developer Tools to verify responsiveness of the site.
 * Devices tested using the Google Developer Tools emulator:
@@ -196,12 +200,16 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 ![lighthouse-desktop-contact-us-page](https://github.com/user-attachments/assets/afa81485-6808-48f2-97aa-aac32f349a5e)
 ![lighthouse-desktop-book-trip-page](https://github.com/user-attachments/assets/90d0c6f5-b8e4-4d1b-8b10-076758bebdde)
 ![lighthouse-desktop-success-page](https://github.com/user-attachments/assets/98b4be21-ca66-4617-b5d2-89311babf6cb)
+![image](https://github.com/user-attachments/assets/e3a6a66a-5896-4b1c-a489-bcd3cef508be)
+
 
 #### Mobile Results
 ![lighthouse-mobile-index-page](https://github.com/user-attachments/assets/7d164ab3-e9fd-4a75-b4cd-596f3ec0a371)
 ![lighthouse-mobile-contact-us-page](https://github.com/user-attachments/assets/50ff2700-a7ec-459f-a59b-0d544b921cae)
 ![lighthouse-mobile-book-trip-page](https://github.com/user-attachments/assets/d48520ca-72fb-40ac-9207-1cddd0840296)
 ![lighthouse-mobile-success-page](https://github.com/user-attachments/assets/0dff1843-21bb-462a-ac34-4b283a241079)
+![image](https://github.com/user-attachments/assets/1ba80b2c-fd5d-4f76-8b20-87c7538c885a)
+
 
 
 ## Deployment
