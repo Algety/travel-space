@@ -33,10 +33,8 @@ This website has been created as the first Milestone project for Code Institute'
     * [Performance Accessibility and SEO](#performance-accessibility-and-seo)
         * [Desktop Results](#desktop-results)
         * [Mobile Results](#mobile-results)
-* [Deployment](#deployment-this-project)
-    * [Deployment This Project](#deployment-this-project)
-    * [Forking This Project](#forking-this-project)
-    * [Cloning This Project](#cloning-this-project)
+* [Deployment](#deployment)
+* [Forking the Project](#forking-the-project)
 * [Credits](#credits)
     * [Content](#content)
     * [Code](#code)
@@ -64,8 +62,11 @@ To achieve the goals, the site should meet the following criteria:
 * As a new visitor, I would like to see pictures from the trips to evaluate what the experience can offer me.
 * As a new visitor, I would like to be able to easily reserve a trip.
 #### Returning Visitor
-* As a returning visitor, I want to be able to leave my reviews to share my expirience
-* As a returning visitor, I want to 
+* As a returning visitor, I want to quickly find and access my account details to review past bookings and manage my preferences.
+* As a returning visitor, I want to be able to easily navigate throughout the site to find relevant content. 
+As a returning visitor, I want to access new testimonials or reviews from recent customers to reinforce my trust and confidence in the company.
+* As a returning visitor, I want to find updated galleries of photos from recent trips to relive memories and get excited about planning my next trip.
+* As a returning visitor, I want to leave a review on the site to share my experience and help other potential customers make informed decisions.
 
 ## Design
 ### Website Structure
