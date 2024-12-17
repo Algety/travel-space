@@ -64,10 +64,6 @@ p {
     text-align: right;
 }
 
-/*#navbar .logo {
-    width: 140px;
-}*/
-
 .navbar-nav {
       font-family: var(--primary-font);
         letter-spacing: 2px;
@@ -125,16 +121,12 @@ p {
 
 #front-photo-text {
     position: absolute;
-    font-size: 550%;
     color: var(--secondary-color);
     font-family: var(--primary-font);
+    font-size: 390%;
     text-transform: uppercase;
-
-    min-height: 200px;
-    padding-left: 65px;
-    padding-top: 40px;
-    bottom: 40px;
     text-shadow: 5px 5px 34px rgba(0, 0, 0, 0.5);
+    bottom: 30px;
 }
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -213,12 +205,9 @@ footer {
     }
 
     #front-photo-text {
-        font-size: 500%;
-        padding-left: 10vw;
-        padding-bottom: 3vw;
+        padding-left: 8vw;
+        padding-bottom: 0.5vh;
     }
-
-  
 
     .navbar-toggler {
         font-size: 300%;
@@ -245,7 +234,6 @@ footer {
         width: 120px;
         height: 100%;
     }
-    
 
     .navbar-toggler {
         font-size: 300%;
@@ -258,9 +246,9 @@ footer {
     }
 
     #front-photo-text {
-        font-size: 12vw;
-        padding-left: 10vw;
-        padding-bottom: 5vh;
+        font-size: 550%;
+        padding-left: 8vw;
+        padding-bottom: 3vh;
     }
 
     .social-links i {
@@ -282,8 +270,8 @@ footer {
     }
 
     #front-photo-text {
-        font-size: 12vw;
         padding-left: 45px;
+        padding-bottom: 1vh;
     }
 
     .navbar-collapse {
@@ -298,9 +286,8 @@ footer {
 
 @media screen and (min-width: 1200px) {
     #front-photo-text {
-        font-size: 700%;
         padding-left: 12vw;
-        padding-top: 10vh;
+        padding-bottom: 0.3vh;
     }
     .navbar-nav {
         font-size: 160%;
@@ -309,9 +296,6 @@ footer {
 
 @media screen and (min-width: 1400px) {
     #front-photo-text {
-        font-size: 580%;
         padding-left: 5vw;
-        max-width: 90vw;
-        padding-bottom: 0.3vh;
     }
 }
