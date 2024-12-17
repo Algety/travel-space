@@ -1,5 +1,7 @@
 /* Custom fonts import */
 @import url('https://fonts.cdnfonts.com/css/gobold');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 
 /* Setting variables for styling fonts and colors */
 :root {
@@ -8,7 +10,7 @@
     --secondary-color: white;
     /* white */
     --primary-font: 'Gobold', sans-serif;
-    --secondary-font: 'Inter', sans serif;
+    --secondary-font: 'Oswald', sans serif;
 }
 
 /* Override bootstrap styles */
