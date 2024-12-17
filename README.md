@@ -103,6 +103,9 @@ The booking page contains a booking form where the visitor can choose the dates 
 ### Confirmation page
 A message on the confirmation page informs the user about the successful submission, enhancing the user experience.
 ![image](https://github.com/user-attachments/assets/7a40c858-6005-4b80-869f-3d47c0bee493)
+### Traveller`s Guide page
+Containes the essential information about the trip: duration, accommodation, dining, luggage, safety, and activities.
+![image](https://github.com/user-attachments/assets/fa6b3ee9-e764-4a2d-86a7-3dee37098405)
 
 ## Future Features
 To meet the needs of the business and visitors/customers of the site, the following features are planned to be implemented:

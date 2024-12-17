@@ -150,7 +150,18 @@ main {
 #success {
     padding-top: 100px;
 }
+/*Guide*/
+#guide-header {
+    padding-top: 130px;
+}
 
+.guide-img {
+    width: 100%;
+}
+
+.guide-div{
+    padding: 10px 20px;
+}
 /*-----------------------------------------------------------------------------------------------*/
 /*Contacts*/
 #contacts-container {
