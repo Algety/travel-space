@@ -73,6 +73,7 @@ As a returning visitor, I want to access new testimonials or reviews from recent
 The website consists of four pages: Home Page, Contact Page, Booking Page, and Confirmation Page. The default loading page is the Home Page. Each page has a navigation bar at the top and a footer at the bottom. The Home Page features sections designed to capture the visitor’s interest and attention with a front banner, followed by information about Moon trips. This page links to all other pages on the website via the Navigation Menu at the top. The Contact Page provides the company’s office address, phone number, email, social media links, and a map showing the office location. The Booking Page includes a reservation form where visitors can select trip dates and the number of travelers. The Confirmation Page informs the visitor if the booking was completed successfully, enhancing the user experience.
 ### Colour
 To create a visually appealing and accessible website, two main colors with strong contrast were used — dark blue, associated with technology, space, and activity, and white, which together create a dynamic appearance for the site.
+![image](https://github.com/user-attachments/assets/ffbc6fbd-2b61-4abb-88b0-a837e358e046)
 ### Fonts
 The fonts used for this website are Gobold High Bold Italic for the logo, and supporting the logo style, for headings, and Navbar links; and Oswald for plain text and sub-headings. Both fonts are backed up with the Sans-Serif font family in case there are any issues with the imported fonts
 ### Images
